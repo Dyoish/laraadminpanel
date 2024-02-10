@@ -15,4 +15,6 @@ Route::group([
 
     $router->resource('buyers', BuyersController::class);
 
+    $router->resource('bagays', BagayController::class);
+
 });
